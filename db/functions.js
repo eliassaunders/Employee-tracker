@@ -25,7 +25,7 @@ const newDepartment = function () {
                         console.log(err);
                     }
                     console.table(result);
-                    mainQ();
+
                 })
             })
             
@@ -107,7 +107,7 @@ const newEmployee = function () {
                             console.log(err)
                         }
                         console.table(result); 
-                        mainQ();
+
                     })
                 })
             })
@@ -167,7 +167,7 @@ const addRole = function () {
                             console.log(err)
                         }
                         console.table(result);
-                        mainQ();
+
                     })
                 })
             })
@@ -247,7 +247,6 @@ const upEmployee = function () {
                                     console.log(err)
                                 }
                                 console.table(result);
-                                mainQ();
                             })
                         })
                     })
