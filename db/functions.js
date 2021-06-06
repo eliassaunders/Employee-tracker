@@ -130,7 +130,7 @@ const addRole = function () {
         }, {
             type: "input",
             name: "roleSal",
-            message: "What is the yearly salary of this role? (Must be INT)"
+            message: "What is the hourly wage of this role? (Must be XX.XX)"
         }, {
             type: "list",
             name: "roleDep",
@@ -152,7 +152,7 @@ const addRole = function () {
 
 
 
-                let call = `INSERT INTO role (title, salary, department_id) VALUES (?,?,?)`
+                let call = `INSERT INTO role (title, wage, department_id) VALUES (?,?,?)`
 
                 let params = [role.roleTitle, role.roleSal, param];
 
